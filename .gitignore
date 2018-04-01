@@ -1,0 +1,14 @@
+# ignore all
+*
+
+# but do include directories
+!*/
+
+# include local character exports
+!/localvault/*
+
+# include the quicksave
+!/saves/000000 - quicksave/*
+
+# don't ignore the .gitignore file
+!.gitignore
